@@ -1,0 +1,26 @@
+{
+    "uuid": "9e3457f1-a5be-4e9a-babe-f340fb2fbee7",
+    "shortName": "Compass Rose",
+    "longName": "Compass Rose",
+    "companyName": "7flying Studio",
+    "versioncode": 1,
+    "versionLabel": "1.0",
+    "sdkVersion": "3",
+    "targetPlatforms": ["chalk"],
+    "enableMultiJS": true,
+    "watchapp": {
+        "watchface": true
+    },
+    "appKeys": {
+        "dummy": 0
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "bitmap",
+                "name": "IMAGE_COMPASS_ROSE",
+                "file": "compass-rose.png"
+            }
+        ]
+    }
+}
