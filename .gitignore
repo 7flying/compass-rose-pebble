@@ -17,3 +17,5 @@ lib
 pebble_app.ld
 # Ignore other generated files
 serial_dump.txt
+
+*.png
