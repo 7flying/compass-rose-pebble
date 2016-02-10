@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css"
+          href="/slate-0.0.3/dist/css/slate.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="/css/style.css">
+  </head>
+  <body>
+    <div class="item-container">
+      <h1 class="title">Compass Rose<br>Configuration</h1>
+    </div>
+    <div class="item-container">
+      <div class="item-container-header">Display</div>
+      <div class="item-container-content">
+        <label class="item">
+          Background color
+          <input id="bg-color" type="text"
+                 class="item-color item-color-sunny" value="#000000">
+        </label>
+        <label class="item">
+          Hour hand's color
+          <input id="hour-color" type="text"
+                 class="item-color item-color-sunny" value="#000300">
+        </label>
+        <label class="item">
+          Minute hand's color
+          <input id="minute-color" type="text"
+                 class="item-color item-color-sunny" value="#000000">
+        </label>
+      </div>
+    </div>
+    <div class="item-container">
+      <div class="item-container-header">Features</div>
+      <div class="item-container-content">
+        <label class="item">
+          Second hand
+          <input id="enable-second" type="checkbox" class="item-toggle"
+                 checked>
+        </label>
+        <label class="item">
+          Animation
+          <input id="enable-animation" type="checkbox" class="item-toggle"
+                 checked>
+        </label>
+      </div>
+    </div>
+    <div class="item-container">
+      <div class="button-container">
+        <input id="submitButton" type="button" class="item-button"
+               value="Save">
+      </div>
+      <div class="item-container-footer">
+        Please note that you must click on 'Save' to apply the changes.
+      </div>
+    </div>
+    <script src='/slate-0.0.3/dist/js/slate.min.js'></script>
+    <script src='/js/main.js'></script>
+  </body>
+</html>
