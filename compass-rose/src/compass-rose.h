@@ -12,7 +12,7 @@ typedef struct {
 #define THICKNESS 3
 #define ANIMATION_DELAY 300
 #define ANIMATION_DURATION 1000
-#define HAND_LENGTH_MIN 75
+#define HAND_LENGTH_MIN 80
 #define HAND_LENGTH_HOUR (HAND_LENGTH_MIN - 20)
 
 #endif // COMPASS_ROSE_H

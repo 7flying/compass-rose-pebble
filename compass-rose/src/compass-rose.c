@@ -134,7 +134,7 @@ static void draw_proc(Layer *layer, GContext *ctx)
     }
     // Center
     graphics_context_set_fill_color(ctx, GColorBlack);
-    graphics_fill_circle(ctx, GPoint(center.x + 1, center.y + 1), 4);
+    graphics_fill_circle(ctx, GPoint(center.x + 1, center.y + 1), 5);
 }
 
 static void main_window_load(Window *window)
